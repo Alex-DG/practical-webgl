@@ -7,6 +7,8 @@ module.exports = defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         nested: resolve(__dirname, 'pages/boilerplate/index.html'),
+        nested: resolve(__dirname, 'pages/drawing-point/index.html'),
+        nested: resolve(__dirname, 'pages/particles/index.html'),
       },
     },
   },
