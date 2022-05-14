@@ -6,9 +6,9 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'pages/boilerplate/index.html'),
-        nested: resolve(__dirname, 'pages/drawing-point/index.html'),
-        nested: resolve(__dirname, 'pages/particles/index.html'),
+        boilerplate: resolve(__dirname, 'pages/boilerplate/index.html'),
+        drawingpoint: resolve(__dirname, 'pages/drawing-point/index.html'),
+        particles: resolve(__dirname, 'pages/particles/index.html'),
       },
     },
   },
